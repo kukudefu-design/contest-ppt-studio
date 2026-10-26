@@ -1,0 +1,6 @@
+interface:
+  display_name: "竞赛 PPT 设计工坊"
+  short_description: "从竞赛材料出发，补齐需求、预览风格并制作带精细动效的原生可编辑 PPT"
+  default_prompt: "使用 $contest-ppt-studio，根据我提供的比赛材料和限制，先检查缺口并展示风格展板，再按确认的需求制作可编辑 PPT。"
+policy:
+  allow_implicit_invocation: true

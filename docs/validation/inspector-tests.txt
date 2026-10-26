@@ -1,0 +1,26 @@
+test_actual_presentation_order (__main__.InspectorTests.test_actual_presentation_order) ... ok
+test_corrupt_deflate_returns_failure_json (__main__.InspectorTests.test_corrupt_deflate_returns_failure_json) ... ok
+test_emphasis_does_not_satisfy_entrance_requirement (__main__.InspectorTests.test_emphasis_does_not_satisfy_entrance_requirement) ... ok
+test_empty_geometry_is_not_a_glyph_outline (__main__.InspectorTests.test_empty_geometry_is_not_a_glyph_outline) ... ok
+test_empty_page_assertions_cannot_pass (__main__.InspectorTests.test_empty_page_assertions_cannot_pass) ... ok
+test_invalid_plan_is_not_silently_accepted (__main__.InspectorTests.test_invalid_plan_is_not_silently_accepted) ... ok
+test_invalid_zip_cli_has_json_error_and_nonzero_exit (__main__.InspectorTests.test_invalid_zip_cli_has_json_error_and_nonzero_exit) ... ok
+test_inventory_cannot_claim_playback_or_visual_success (__main__.InspectorTests.test_inventory_cannot_claim_playback_or_visual_success) ... ok
+test_missing_animation_target_fails (__main__.InspectorTests.test_missing_animation_target_fails) ... ok
+test_missing_relationship_resource_fails (__main__.InspectorTests.test_missing_relationship_resource_fails) ... ok
+test_missing_slide_does_not_shift_plan_indices (__main__.InspectorTests.test_missing_slide_does_not_shift_plan_indices) ... ok
+test_native_object_inventory (__main__.InspectorTests.test_native_object_inventory) ... ok
+test_nested_emphasis_cannot_inherit_entrance_class (__main__.InspectorTests.test_nested_emphasis_cannot_inherit_entrance_class) ... ok
+test_null_cli_plan_cannot_bypass_checks (__main__.InspectorTests.test_null_cli_plan_cannot_bypass_checks) ... ok
+test_partial_plan_exposes_unchecked_slides (__main__.InspectorTests.test_partial_plan_exposes_unchecked_slides) ... ok
+test_picture_does_not_satisfy_glyph_requirement (__main__.InspectorTests.test_picture_does_not_satisfy_glyph_requirement) ... ok
+test_plan_matches_real_objects (__main__.InspectorTests.test_plan_matches_real_objects) ... ok
+test_plan_without_any_assertions_cannot_pass (__main__.InspectorTests.test_plan_without_any_assertions_cannot_pass) ... ok
+test_protected_part_hash_detects_change (__main__.InspectorTests.test_protected_part_hash_detects_change) ... ok
+test_raster_only_warning (__main__.InspectorTests.test_raster_only_warning) ... ok
+test_root_group_id_collisions_are_detected (__main__.InspectorTests.test_root_group_id_collisions_are_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.683s
+
+OK

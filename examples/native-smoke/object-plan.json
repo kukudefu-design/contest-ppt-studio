@@ -1,0 +1,58 @@
+{
+  "slides": [
+    {
+      "index": 1,
+      "required_text_shape_ids": [
+        "2"
+      ],
+      "required_vector_shape_ids": [
+        "4",
+        "5"
+      ],
+      "required_glow_shape_ids": [
+        "4",
+        "5"
+      ],
+      "required_entrance_shape_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "index": 2,
+      "required_text_shape_ids": [
+        "2"
+      ],
+      "min_native_charts": 1,
+      "min_native_tables": 1,
+      "required_entrance_shape_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "index": 3,
+      "required_text_shape_ids": [
+        "2"
+      ],
+      "required_vector_shape_ids": [
+        "4",
+        "5"
+      ],
+      "required_glow_shape_ids": [
+        "4",
+        "5"
+      ],
+      "required_entrance_shape_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  ]
+}

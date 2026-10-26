@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "prepared_date": "2026-10-26",
+  "runtime_files_unchanged": 8,
+  "local_self_tests": {
+    "count": 21,
+    "exit_code": 0
+  },
+  "official_skill_validator": "Skill is valid!",
+  "local_links_checked": 32,
+  "local_path_and_secret_pattern_scan": {
+    "status": "pass",
+    "matches": [],
+    "scope": "release text files and PPTX XML; heuristic, not a full security audit"
+  },
+  "example": {
+    "slides": 3,
+    "native_glyphs": 4,
+    "animation_rows": 12,
+    "native_chart_data_readback": "pass"
+  },
+  "hosted_ci": "not_run",
+  "visual_validation": "not_run",
+  "target_software_playback": "not_run"
+}

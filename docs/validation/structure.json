@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "input": "examples/native-smoke/native-smoke.pptx",
+  "scope": "structure_only",
+  "structural_status": "pass",
+  "plan_checked": true,
+  "plan_status": "pass",
+  "plan_coverage": "all_slides",
+  "visual_validation": "not_run",
+  "playback_validation": "not_run",
+  "slides": [
+    {
+      "index": 1,
+      "part": "ppt/slides/slide1.xml",
+      "hidden": false,
+      "shape_ids": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "object_count": 5,
+      "text_shape_ids": [
+        "2",
+        "3",
+        "6"
+      ],
+      "custom_geometry_shape_ids": [
+        "4",
+        "5"
+      ],
+      "glow_shape_ids": [
+        "4",
+        "5"
+      ],
+      "native_chart_count": 0,
+      "native_table_count": 0,
+      "picture_count": 0,
+      "svg_picture_count": 0,
+      "animation_target_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "entrance_target_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "index": 2,
+      "part": "ppt/slides/slide2.xml",
+      "hidden": false,
+      "shape_ids": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "object_count": 5,
+      "text_shape_ids": [
+        "2",
+        "3",
+        "6"
+      ],
+      "custom_geometry_shape_ids": [],
+      "glow_shape_ids": [],
+      "native_chart_count": 1,
+      "native_table_count": 1,
+      "picture_count": 0,
+      "svg_picture_count": 0,
+      "animation_target_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "entrance_target_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "index": 3,
+      "part": "ppt/slides/slide3.xml",
+      "hidden": false,
+      "shape_ids": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "object_count": 5,
+      "text_shape_ids": [
+        "2",
+        "3",
+        "6"
+      ],
+      "custom_geometry_shape_ids": [
+        "4",
+        "5"
+      ],
+      "glow_shape_ids": [
+        "4",
+        "5"
+      ],
+      "native_chart_count": 0,
+      "native_table_count": 0,
+      "picture_count": 0,
+      "svg_picture_count": 0,
+      "animation_target_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "entrance_target_ids": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "issues": [],
+  "limits": [
+    "原生对象数量不证明语义正确、数据可修改、全部内容可编辑或视觉合格。",
+    "动画目标与进入分类只提供结构证据，不能证明具体时序正确或现场播放成功。",
+    "不执行完整 Office XSD 校验；Strict 命名空间不受支持。",
+    "部件哈希适用于完全锁定的部件；同页允许编辑区域需另做对象级比较。"
+  ],
+  "external_relationship_count": 0,
+  "planned_slide_indices": [
+    1,
+    2,
+    3
+  ],
+  "unplanned_slide_indices": [],
+  "slide_count": 3,
+  "summary": {
+    "object_count": 15,
+    "native_chart_count": 1,
+    "native_table_count": 1,
+    "picture_count": 0,
+    "svg_picture_count": 0
+  }
+}
