@@ -23,7 +23,7 @@ python -B -X utf8 scripts/inspect_pptx.py examples/native-smoke/native-smoke.ppt
 
 本地测试输出见 [inspector-tests.txt](validation/inspector-tests.txt)，样例结构输出见 [structure.json](validation/structure.json)，动画读回摘要见 [motion-readback.json](validation/motion-readback.json)。发布记录移除了本机安装目录、字体本地路径和用户会话内容。
 
-GitHub Actions 配置将以 Python 3.12 在 Windows 和 Ubuntu 运行同类检查。**远程工作流尚未执行**，不能用本地成功代替 CI 成功或 Linux 兼容结论。
+GitHub Actions 已以 Python 3.12 在 Windows 和 Ubuntu 完成同类检查，两项作业均通过。已核验提交 `f25b839969ce16b606a067d590582b058868e18e`，见[远程运行记录](https://github.com/kukudefu-design/contest-ppt-studio/actions/runs/40315960241)。该结果仅覆盖自测和样例结构检查。
 
 ## 尚未执行
 
@@ -38,4 +38,4 @@ GitHub Actions 配置将以 Python 3.12 在 Windows 和 Ubuntu 运行同类检�
 
 Twenty-one inspector self-tests passed locally. Four tabletop cases assessed workflow decisions; the fixed-template case was clarified and retested. The three-slide synthetic example contains four independent outlined characters, a native chart and table, and twelve entrance-animation rows, with structural and parameter readback checks.
 
-Hosted CI, real-project end-to-end generation, rendered visual QA, live PowerPoint/WPS editing/playback, and clean-machine production reproduction remain unverified. Structural inventory and animation XML do not establish visual or playback success.
+Hosted Python 3.12 self-tests and example inspection passed on Windows and Ubuntu ([run](https://github.com/kukudefu-design/contest-ppt-studio/actions/runs/40315960241), commit `f25b839969ce16b606a067d590582b058868e18e`). Real-project end-to-end generation, rendered visual QA, live PowerPoint/WPS editing/playback, and clean-machine production reproduction remain unverified. Structural inventory and animation XML do not establish visual or playback success.

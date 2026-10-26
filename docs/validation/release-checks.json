@@ -19,7 +19,17 @@
     "animation_rows": 12,
     "native_chart_data_readback": "pass"
   },
-  "hosted_ci": "not_run",
+  "hosted_ci": {
+    "status": "success",
+    "run_id": 40315960241,
+    "tested_commit": "f25b839969ce16b606a067d590582b058868e18e",
+    "url": "https://github.com/kukudefu-design/contest-ppt-studio/actions/runs/40315960241",
+    "jobs": {
+      "Python 3.12 / windows-latest": "success",
+      "Python 3.12 / ubuntu-latest": "success"
+    },
+    "scope": "standard-library self-tests and synthetic PPTX structural inspection"
+  },
   "visual_validation": "not_run",
   "target_software_playback": "not_run"
 }

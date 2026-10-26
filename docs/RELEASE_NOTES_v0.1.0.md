@@ -12,7 +12,7 @@
 - 事实与计划区分、官方模板保护、逐字矢量标题和原生图表/流程图要求。
 - 只读 PPTX 检查器和21项标准库自测。
 - 中英双语 README、依赖与致谢、验证记录及三页结构样例。
-- GitHub Actions 结构检查配置，远程运行待仓库上传后确认。
+- GitHub Actions 结构检查已在 Windows 和 Ubuntu 上通过，见[运行记录](https://github.com/kukudefu-design/contest-ppt-studio/actions/runs/40315960241)。
 
 ### 使用与验证边界
 
@@ -26,4 +26,4 @@ Initial public release of an agent skill for editable student-competition presen
 
 Included: Chinese/English introductions, a read-only PPTX inspector, 21 self-tests, dependency notices, validation scope, a synthetic three-slide example, and a structural CI workflow.
 
-Full production requires suitable host tools and separately available backends. Hosted CI has not run yet. Real-project end-to-end production, rendered visual approval, and live PowerPoint/WPS playback remain unverified. The example is a structural test artifact, not a finished contest deck.
+Full production requires suitable host tools and separately available backends. Hosted self-tests and example inspection passed on Windows and Ubuntu. Real-project end-to-end production, rendered visual approval, and live PowerPoint/WPS playback remain unverified. The example is a structural test artifact, not a finished contest deck.

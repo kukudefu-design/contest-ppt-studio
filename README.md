@@ -87,7 +87,7 @@ python scripts/inspect_pptx.py examples/native-smoke/native-smoke.pptx --plan ex
 - 21 项检查器测试已在本地通过。
 - 4 类桌面场景已评估：未知风格、指定风格、固定官方模板、交付修复；模板分支经过修订回归。
 - 提供[三页结构样例](examples/native-smoke/README.md)：4 个独立汉字轮廓、1 个原生图表、1 个原生表格及 12 条进入动画，附生成源与读回记录。
-- 配置了 GitHub Actions 自测流程；远程 CI 尚未运行。
+- GitHub Actions 已在 Windows 和 Ubuntu 上通过 Python 3.12 自测与样例结构检查，见[远程检查记录](https://github.com/kukudefu-design/contest-ppt-studio/actions/runs/40315960241)。
 
 样例用于验证结构与工具接口，不是真实竞赛设计成品。真实材料全流程、逐页视觉和 PowerPoint/WPS 实机播放尚未验证。完整边界见 [VALIDATION.md](docs/VALIDATION.md)。
 

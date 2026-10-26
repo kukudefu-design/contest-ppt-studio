@@ -82,7 +82,7 @@ The inspector inventories presentation order, objects, resource relationships, n
 - 21 structural-inspector tests passed locally.
 - Four tabletop scenarios assessed decisions, stage boundaries, and planned deliverables; the fixed-template branch was clarified and retested.
 - A [three-slide structural example](examples/native-smoke/README.md) contains four independent Chinese character outlines, a native chart, a native table, and twelve entrance-animation rows with structural readback checks.
-- A GitHub Actions workflow is included; hosted CI has not yet run.
+- Hosted Python 3.12 self-tests and example inspection passed on Windows and Ubuntu; see the [workflow run](https://github.com/kukudefu-design/contest-ppt-studio/actions/runs/40315960241).
 
 The example is a tool-validation artifact, not a finished contest presentation. No real-project end-to-end, visual-render, or PowerPoint/WPS playback approval is claimed. See [validation scope](docs/VALIDATION.md).
 
